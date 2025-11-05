@@ -1,0 +1,53 @@
+PODS:
+  - Capacitor (7.0.0):
+    - CapacitorCordova
+  - CapacitorCordova (7.0.0)
+  - CapacitorFilesystem (7.1.4):
+    - Capacitor
+    - IONFilesystemLib (~> 1.0.1)
+  - CapacitorShare (7.0.0):
+    - Capacitor
+  - CapawesomeTeamCapacitorAudioPlayer (0.2.0):
+    - Capacitor
+  - CapawesomeTeamCapacitorAudioRecorder (7.5.0):
+    - Capacitor
+  - IONFilesystemLib (1.0.1)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorFilesystem (from `../../node_modules/@capacitor/filesystem`)"
+  - "CapacitorShare (from `../../node_modules/@capacitor/share`)"
+  - "CapawesomeTeamCapacitorAudioPlayer (from `../../node_modules/@capawesome-team/capacitor-audio-player`)"
+  - "CapawesomeTeamCapacitorAudioRecorder (from `../../node_modules/@capawesome-team/capacitor-audio-recorder`)"
+
+SPEC REPOS:
+  trunk:
+    - IONFilesystemLib
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorFilesystem:
+    :path: "../../node_modules/@capacitor/filesystem"
+  CapacitorShare:
+    :path: "../../node_modules/@capacitor/share"
+  CapawesomeTeamCapacitorAudioPlayer:
+    :path: "../../node_modules/@capawesome-team/capacitor-audio-player"
+  CapawesomeTeamCapacitorAudioRecorder:
+    :path: "../../node_modules/@capawesome-team/capacitor-audio-recorder"
+
+SPEC CHECKSUMS:
+  Capacitor: 82d1f3b4480d66b5996814f74500dcbc0908558c
+  CapacitorCordova: 345f93b7edd121db98e4ec20ac94d6d7bcaf7e48
+  CapacitorFilesystem: f9bd850c41e048180e5dc0cbb90f2033ede9d2cc
+  CapacitorShare: d94c53d7656f1ce8f6712ae8d19ab0c18a69259f
+  CapawesomeTeamCapacitorAudioPlayer: b050737d5f32e0e1c57710191b4d364206e8badf
+  CapawesomeTeamCapacitorAudioRecorder: 2d7d21bdb666eca4be7cea31a8585f07a059fd96
+  IONFilesystemLib: 89258b8e3e85465da93127d25d7ce37f977e8a6f
+
+PODFILE CHECKSUM: 486dbc608b8df18f30444f2ef085fe9ad16c985b
+
+COCOAPODS: 1.16.2

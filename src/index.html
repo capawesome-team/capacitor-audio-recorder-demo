@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Capacitor Audio Recorder</title>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"
+    ></script>
+
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="theme-color" content="#31d53d" />
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+    />
+
+    <script type="module" src="./js/script.js"></script>
+  </head>
+  <body>
+    <ion-app>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Capacitor Audio Recorder</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-list>
+          <ion-item>
+            <ion-select
+              id="audio-session-mode"
+              label="Audio Session Mode (iOS)"
+              value="MEASUREMENT"
+            >
+              <ion-select-option value="DEFAULT">Default</ion-select-option>
+              <ion-select-option value="GAME_CHAT">Game Chat</ion-select-option>
+              <ion-select-option value="MEASUREMENT"
+                >Measurement</ion-select-option
+              >
+              <ion-select-option value="SPOKEN_AUDIO"
+                >Spoken Audio</ion-select-option
+              >
+              <ion-select-option value="VIDEO_CHAT"
+                >Video Chat</ion-select-option
+              >
+              <ion-select-option value="VIDEO_RECORDING"
+                >Video Recording</ion-select-option
+              >
+              <ion-select-option value="VOICE_CHAT"
+                >Voice Chat</ion-select-option
+              >
+            </ion-select>
+          </ion-item>
+          <ion-button id="cancel-recording-button" expand="block"
+            >Cancel Recording</ion-button
+          >
+          <ion-button id="get-recording-status-button" expand="block"
+            >Get Recording Status</ion-button
+          >
+          <ion-button id="pause-recording-button" expand="block"
+            >Pause Recording</ion-button
+          >
+          <ion-button id="resume-recording-button" expand="block"
+            >Resume Recording</ion-button
+          >
+          <ion-button id="start-recording-button" expand="block"
+            >Start Recording</ion-button
+          >
+          <ion-button id="stop-recording-button" expand="block"
+            >Stop Recording</ion-button
+          >
+          <ion-button id="check-permissions-button" expand="block"
+            >Check Permissions</ion-button
+          >
+          <ion-button id="request-permissions-button" expand="block"
+            >Request Permissions</ion-button
+          >
+          <ion-button id="play-last-recording-button" expand="block"
+            >Play Last Recording</ion-button
+          >
+          <ion-button id="share-last-recording-button" expand="block"
+            >Share Last Recording</ion-button
+          >
+        </ion-list>
+      </ion-content>
+    </ion-app>
+  </body>
+</html>

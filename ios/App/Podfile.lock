@@ -1,17 +1,17 @@
 PODS:
-  - Capacitor (7.0.0):
+  - Capacitor (8.5.2):
     - CapacitorCordova
-  - CapacitorCordova (7.0.0)
-  - CapacitorFilesystem (7.1.4):
+  - CapacitorCordova (8.5.2)
+  - CapacitorFilesystem (8.1.4):
     - Capacitor
-    - IONFilesystemLib (~> 1.0.1)
-  - CapacitorShare (7.0.0):
+    - IONFilesystemLib (~> 2.0.0)
+  - CapacitorShare (8.0.3):
     - Capacitor
-  - CapawesomeTeamCapacitorAudioPlayer (0.2.0):
+  - CapawesomeTeamCapacitorAudioPlayer (8.5.1):
     - Capacitor
-  - CapawesomeTeamCapacitorAudioRecorder (7.5.0):
+  - CapawesomeTeamCapacitorAudioRecorder (8.2.5):
     - Capacitor
-  - IONFilesystemLib (1.0.1)
+  - IONFilesystemLib (2.0.0)
 
 DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
@@ -40,14 +40,14 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capawesome-team/capacitor-audio-recorder"
 
 SPEC CHECKSUMS:
-  Capacitor: 82d1f3b4480d66b5996814f74500dcbc0908558c
-  CapacitorCordova: 345f93b7edd121db98e4ec20ac94d6d7bcaf7e48
-  CapacitorFilesystem: f9bd850c41e048180e5dc0cbb90f2033ede9d2cc
-  CapacitorShare: d94c53d7656f1ce8f6712ae8d19ab0c18a69259f
-  CapawesomeTeamCapacitorAudioPlayer: b050737d5f32e0e1c57710191b4d364206e8badf
-  CapawesomeTeamCapacitorAudioRecorder: 2d7d21bdb666eca4be7cea31a8585f07a059fd96
-  IONFilesystemLib: 89258b8e3e85465da93127d25d7ce37f977e8a6f
+  Capacitor: 89067779e14fb7ea56af07b4817f45d1f0c2a269
+  CapacitorCordova: 5bec5648cbd09a176ce34ce5e7b6cdabb2c8a327
+  CapacitorFilesystem: 17ee1862a45ef2e5012311a87e18de1d45a6811b
+  CapacitorShare: 5b5e53347556bee89ae6163ed20b5b3c25fe75f1
+  CapawesomeTeamCapacitorAudioPlayer: 6853507b49fb5c46d81331efe7de021a4d3e101d
+  CapawesomeTeamCapacitorAudioRecorder: 5bf3574e9f82f740702eb14a1bf745a2eaa49301
+  IONFilesystemLib: 0a001124dedc317c03032d138aaefbf4c18adb09
 
-PODFILE CHECKSUM: 486dbc608b8df18f30444f2ef085fe9ad16c985b
+PODFILE CHECKSUM: 08165ac5dc3f76cb65189918895bc7f1b681dbbd
 
-COCOAPODS: 1.16.2
+COCOAPODS: 1.17.0
